@@ -5,6 +5,9 @@ var precio_salida = document.getElementById("precio_salida");
 var margen_inicial = document.getElementById("margen_inicial");
 var balance = document.getElementById("wallet");
 
+var calcular;
+calcular = precio_entrada * 100
+
 
 // var calcular; ///no se si va esta
 // var quanty_crip;
