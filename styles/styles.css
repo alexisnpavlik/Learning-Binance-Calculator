@@ -1,10 +1,16 @@
 *{
-  background-color: #f0b90b;
   padding: 0cm;
   margin: 0cm;
 }
 div{
   background-color: rgb(12, 12, 11); 
   color: black; 
+}
+body{
+  background-color:#f0b90b; 
+}
 
+h1{
+  color: white;
+  text-align: center;
 }
