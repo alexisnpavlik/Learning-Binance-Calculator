@@ -9,9 +9,7 @@
     <title>Binance Futures</title>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="img/logo.png">
-
 </head>
-
 <body>
     <header>
         <div>
@@ -21,23 +19,57 @@
     </header>
     <main>
         <section>
-            <form action="">
-                <p>escribe el par de allcoin <input type="text" id="contract"></input>
-                </p>
-                <p><input type="number" id="mode"> selecciona modo </input>
-                </p>
-                <p><input type="number" id="precio_entrada"> precio de entrada en usdt </input>
-                </p>
-                <p><input type="number" id="precio_salida"> precio de salida en usdt </input>
-                </p>
-                <p><input type="number" id="margen_inicial"> margen inicial en usdt </input>
-                </p>
-                <p><input type="number" id="wallet"> balance </input>
-                </p>
-                <p><button type="submit" onclick="getData()"> enviar </button></p>
-
+            <form>
+                <h2> Entrada en Long:</h2></p>
+                <div>
+                    <h4>Precio de entrada</h4>
+                    <input type="number" id="precio_entrada"></input>
+                </div>
+                <div>
+                    <h4>Precio de Salida</h4>
+                    <input type="number" id="precio_entrada"></input>
+                </div>
+                <div>
+                    <h4>Apalancamineto</h4>
+                    <input type="number" id="apalancamineto"></input>
+                </div>
+                <div>
+                    <h4>Margen inicial</h4>
+                    <input type="number" id="margen_inicia"></input>
+                </div>
+                <div>
+                    <h4>Balance</h4>
+                    <input type="number" id="balance"></input>
+                </div>
+                <button type="submit" onclick="getData()"> Limpiar </button>
+                <button type="submit" onclick="getData()"> Calcular </button>
             </form>
-            <div id="hola"> </div>
+        
+            <form>
+                <h2> Entrada en Short:</h2></p>
+                <div>
+                    <h4>Precio de entrada</h4>
+                    <input type="number" id="precio_entrada"></input>
+                </div>
+                <div>
+                    <h4>Precio de Salida</h4>
+                    <input type="number" id="precio_entrada"></input>
+                </div>
+                <div>
+                    <h4>Apalancamineto</h4>
+                    <input type="number" id="apalancamineto"></input>
+                </div>
+                <div>
+                    <h4>Margen inicial</h4>
+                    <input type="number" id="margen_inicia"></input>
+                </div>
+                <div>
+                    <h4>Balance</h4>
+                    <input type="number" id="balance"></input>
+                </div>
+                <button type="submit" onclick="getData()"> Limpiar </button>
+                <button type="submit" onclick="getData()"> Calcular </button>
+            </form>
         </section>
 
     </main>
