@@ -1,9 +1,12 @@
-var contract = document.getElementById("contract");
-var mode = document.getElementById("mode");
-var precio_entrada = document.getElementById("precio_entrada");
-var precio_salida = document.getElementById("precio_salida");
-var margen_inicial = document.getElementById("margen_inicial");
-var balance = document.getElementById("wallet");
+var contract = document.getElementById("contract").value;
+var mode = document.getElementById("mode").value;
+var precio_entrada = document.getElementById("precio_entrada").value;
+var precio_salida = document.getElementById("precio_salida").value;
+var margen_inicial = document.getElementById("margen_inicial").value;
+var balance = document.getElementById("wallet").value;
+
+var calcular;
+calcular = precio_entrada * 100
 
 
 // var calcular; ///no se si va esta
