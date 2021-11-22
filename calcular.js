@@ -21,9 +21,9 @@ var getDataShort = function() {
     console.log(calcularSh);
 };
 
-document.getElementById('hola').style.visibility = 'visible';
-document.getElementById('hola').innerHTML = getData();
-hola.innerHTML = '<div>su resultado es:' + getData() + '</div>';
+///document.getElementById('hola').style.visibility = 'visible';
+///document.getElementById('hola').innerHTML = getData();
+///hola.innerHTML = '<div>su resultado es:' + getData() + '</div>';
 
 
 
