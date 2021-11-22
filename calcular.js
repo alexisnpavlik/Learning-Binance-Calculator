@@ -1,17 +1,27 @@
-var getData = function() {
-    var contract = document.getElementById("contract").value;
-    var mode = document.getElementById("mode").value;
-    var precio_entrada = document.getElementById("precio_entrada").value;
-    var precio_salida = document.getElementById("precio_salida").value;
-    var margen_inicial = document.getElementById("margen_inicial").value;
-    var balance = document.getElementById("wallet").value;
-    var calcular;
-    calcular = precio_entrada * 100
-    console.log(calcular);
+var getDataLong = function() {
+    var entradaL = document.getElementById("precio_entrada_long").value;
+    var salidaL = document.getElementById("precio_salida_long").value;
+    var apalancamientoL = document.getElementById("apalancamiento_long").value;
+    var margen_inicialL = document.getElementById("margen_inicial_long").value;
+    var balanceL = document.getElementById("balance_long").value;
+    var calcularL;
+    calcularL = precio_entradaL * 100;
+    console.log(calcularL);
 };
 
 
-document.getElementById('hola').style.visibility = ' visible';
+var getDataShort = function() {
+    var entradaSh = document.getElementById("precio_entrada_short").value;
+    var salidaSh = document.getElementById("precio_salida_short").value;
+    var apalancamientoSh = document.getElementById("apalancamiento_short").value;
+    var margen_inicialSh = document.getElementById("margen_inicial_short").value;
+    var balanceSh = document.getElementById("balance_short").value;
+    var calcularSh;
+    calcularSh = precio_entradaSh * 100;
+    console.log(calcularSh);
+};
+
+document.getElementById('hola').style.visibility = 'visible';
 document.getElementById('hola').innerHTML = getData();
 hola.innerHTML = '<div>su resultado es:' + getData() + '</div>';
 

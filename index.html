@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="shortcut icon" href="img/logo.png">
 </head>
+
 <body>
     <header>
         <div>
@@ -20,56 +21,62 @@
     <main>
         <section>
             <form>
-                <h2> Entrada en Long:</h2></p>
+                <h2> Entrada en Long:</h2>
+                </p>
                 <div>
                     <h4>Precio de entrada</h4>
-                    <input type="number" id="precio_entrada"></input>
+                    <input type="number" id="precio_entrada_long"></input>
                 </div>
                 <div>
                     <h4>Precio de Salida</h4>
-                    <input type="number" id="precio_entrada"></input>
+                    <input type="number" id="precio_salida_long"></input>
                 </div>
                 <div>
                     <h4>Apalancamineto</h4>
-                    <input type="number" id="apalancamineto"></input>
+                    <input type="number" id="apalancamineto_long"></input>
                 </div>
                 <div>
                     <h4>Margen inicial</h4>
-                    <input type="number" id="margen_inicia"></input>
+                    <input type="number" id="margen_inicial_long"></input>
                 </div>
                 <div>
                     <h4>Balance</h4>
-                    <input type="number" id="balance"></input>
+                    <input type="number" id="balance_long"></input>
                 </div>
                 <button type="submit" onclick="getData()"> Limpiar </button>
                 <button type="submit" onclick="getData()"> Calcular </button>
             </form>
-        
+
             <form>
-                <h2> Entrada en Short:</h2></p>
+                <h2> Entrada en Short:</h2>
+                </p>
                 <div>
                     <h4>Precio de entrada</h4>
-                    <input type="number" id="precio_entrada"></input>
+                    <input type="number" id="precio_entrada_short"></input>
                 </div>
                 <div>
                     <h4>Precio de Salida</h4>
-                    <input type="number" id="precio_entrada"></input>
+                    <input type="number" id="precio_entrada_short"></input>
                 </div>
                 <div>
                     <h4>Apalancamineto</h4>
-                    <input type="number" id="apalancamineto"></input>
+                    <input type="number" id="apalancamineto_short"></input>
                 </div>
                 <div>
                     <h4>Margen inicial</h4>
-                    <input type="number" id="margen_inicia"></input>
+                    <input type="number" id="margen_inicial_short"></input>
                 </div>
                 <div>
                     <h4>Balance</h4>
-                    <input type="number" id="balance"></input>
+                    <input type="number" id="balance_short"></input>
                 </div>
                 <button type="submit" onclick="getData()"> Limpiar </button>
                 <button type="submit" onclick="getData()"> Calcular </button>
             </form>
+        </section>
+        <section>
+            <h2>RESULTADOS DE TU OPERACIÓN</h2>
+
         </section>
 
     </main>
