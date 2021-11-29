@@ -3,8 +3,32 @@
   padding: 0cm;
   margin: 0cm;
 }
+<<<<<<< HEAD
+=======
+header{
+  background-color: black;
+  height: 70px;
+}
+body{
+  background-color:#f0b90b; 
+}
+form{
+  background-color: rgb(49, 49, 49);
+  margin: 10% 100px 10px 5px;
+
+}
+
+.cajas{
+  display: flex;
+  justify-content: space-evenly;
+}
+>>>>>>> 5afdfa1 (update)
 div{
   background-color: rgb(12, 12, 11); 
   color: black; 
 
+}
+
+.resultado{
+  text-align: center;
 }
