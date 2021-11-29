@@ -15,7 +15,7 @@ form{
 
 }
 
-section{
+.cajas{
   display: flex;
   justify-content: space-evenly;
 }
@@ -44,4 +44,8 @@ button{
   margin:  15px;
   margin-left: 30px;
 
+}
+
+.resultado{
+  text-align: center;
 }
