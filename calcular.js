@@ -8,14 +8,13 @@ function getDataLong() {
     var margen_inicialL = document.getElementById("margen_inicial_long").value;
     var apalancamientoL = document.getElementById("apalancamineto_long").value;
     var walletL = document.getElementById("waller_long").value;
-    
-    const value_PNL = salidaL * margen_inicialL * apalancamientoL / entradaL - margen_inicialL * apalancamientoL ;
+
+    const value_PNL = (salidaL * margen_inicialL * apalancamientoL) / (entradaL);
     const log = document.getElementById('log');
     log.innerHTML = value_PNL;
 }
-    
+
 //     const value_liq = (walletL+margen_inicialL+margen_inicialL*apalancamientoL*entradaL)/(apalancamientoL*margen_inicialL);
 //     const leg = document.getElementById('leg');
 //     leg.innerHTML = value_liq;
-// 
-
+//
