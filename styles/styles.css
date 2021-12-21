@@ -1,52 +1,71 @@
-*{
-  padding: 0cm;
-  margin: 0cm;
-}
-header{
-  background-color: black;
-  height: 70px;
-}
-body{
-  background-color:#f0b90b; 
-}
-form{
-  background-color: rgb(49, 49, 49);
-  margin: 10% 100px 10px 5px;
-  border-radius: 10px;
-
+* {
+    padding: 0cm;
+    margin: 0cm;
 }
 
-.cajas{
-  display: flex;
-  justify-content: space-evenly;
-}
-div{
-  margin-left: 5px;
-  margin-right: 5px;
-}
-h1{
-  color: white;
-  text-align: center;
-  padding: 15px 0;
-}
-h2{
-  color: white;
-margin: 10px;
-}
-h4{
-  color: white;
-  text-align: center;
-  margin: 5px;
-}
-input{
-  margin-left: 15px;
-}
-button{
-  margin:  15px;
-  margin-left: 30px;
-
+header {
+    background-color: black;
+    height: 70px;
 }
 
-.resultado{
-  text-align: center;
+body {
+    background-color: #f0b90b;
+}
+
+form {
+    background-color: rgb(49, 49, 49);
+    margin: 10% 100px 10px 5px;
+    border-radius: 10px;
+}
+
+.cajas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+h2 {
+    color: white;
+    margin: 10px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+input {
+    margin-left: 15px;
+}
+
+button {
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.resultado {
+    text-align: center;
+}
+
+.footer-social {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.social-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
