@@ -13,7 +13,7 @@ function getDataLong() {
     const long = document.getElementById('long');
     long.innerHTML = value_PNL;
     
-    const value_liq = (entradaL * margen_inicialL) / (walletL - margen_inicialL);
+    const value_liq = (entradaL * margen_inicialL) / (walletL + margen_inicialL);
     const leg = document.getElementById('leg');
     leg.innerHTML = value_liq;
 }

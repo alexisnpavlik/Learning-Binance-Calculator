@@ -90,6 +90,10 @@ footer {
     height: 100px;
     color: white;
     text-align: center;
+    /* centrar en el eje y */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 .powered {
