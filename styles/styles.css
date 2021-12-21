@@ -74,24 +74,6 @@ button {
     margin: 5px;
 }
 
-<<<<<<< HEAD
-.footer-social1 {
-    display: inline-block;
-}
-
-.footer-social1 {
-    color: whitesmoke;
-    padding: 5px;
-    border-radius: 7px;
-    background-color: grey;
-    list-style: none;
-}
-
-.footer-social1 {
-    box-shadow: center;
-    flex-direction: row;
-    justify-content: center
-=======
 
 footer {
   margin-top: 10px;
@@ -107,5 +89,4 @@ footer {
 .powered {
     color: white;
     margin: 5px;
->>>>>>> d956deae27b9290c67213c6eff67d933197b47de
 }
