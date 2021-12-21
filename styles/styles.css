@@ -58,14 +58,20 @@ button {
     text-align: center;
 }
 
-.footer-social {
+.footer-social1 {
     display: inline-block;
-    flex-direction: column;
-    justify-content: flex-end;
 }
 
-.social-social {
-    display: flex;
+.footer-social1 {
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: grey;
+    list-style: none;
+}
+
+.footer-social1 {
+    box-shadow: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center
 }
