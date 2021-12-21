@@ -27,7 +27,9 @@ form {
 
 .cajas {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+  
+    
 }
 
 div {
@@ -72,32 +74,19 @@ button {
     margin: 5px;
 }
 
-.footer-social {
-    display: inline-block;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-.social-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 footer {
   margin-top: 10px;
     background-color: black;
     height: 100px;
     color: white;
-    text-align: center;
     /* centrar en el eje y */
-    display: flex;
+    display: block;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 
 }
 .powered {
     color: white;
-    text-align: center;
     margin: 5px;
 }
