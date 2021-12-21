@@ -1,6 +1,7 @@
 * {
     padding: 0cm;
     margin: 0cm;
+
 }
 
 header {
@@ -11,16 +12,24 @@ header {
 body {
     background-color: #f0b90b;
 }
+main {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
 
 form {
     background-color: rgb(49, 49, 49);
-    margin: 10% 100px 10px 5px;
+    margin-top: 10%;
     border-radius: 10px;
 }
 
 .cajas {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+  
+    
 }
 
 div {
@@ -45,6 +54,7 @@ h4 {
     margin: 5px;
 }
 
+
 input {
     margin-left: 15px;
 }
@@ -55,9 +65,16 @@ button {
 }
 
 .resultado {
+    width: 30%;
     text-align: center;
+    background-color: rgb(49, 49, 49);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin: 5px;
 }
 
+<<<<<<< HEAD
 .footer-social1 {
     display: inline-block;
 }
@@ -74,4 +91,21 @@ button {
     box-shadow: center;
     flex-direction: row;
     justify-content: center
+=======
+
+footer {
+  margin-top: 10px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    /* centrar en el eje y */
+    display: block;
+    align-items: center;
+    text-align: center;
+
+}
+.powered {
+    color: white;
+    margin: 5px;
+>>>>>>> d956deae27b9290c67213c6eff67d933197b47de
 }
