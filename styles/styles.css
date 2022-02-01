@@ -1,6 +1,7 @@
 * {
     padding: 0cm;
     margin: 0cm;
+
 }
 
 header {
@@ -11,7 +12,6 @@ header {
 body {
     background-color: #f0b90b;
 }
-
 main {
     align-items: center;
     align-content: center;
@@ -28,6 +28,8 @@ form {
 .cajas {
     display: flex;
     justify-content: space-around;
+  
+    
 }
 
 div {
@@ -52,6 +54,7 @@ h4 {
     margin: 5px;
 }
 
+
 input {
     margin-left: 15px;
 }
@@ -62,8 +65,7 @@ button {
 }
 
 .resultado {
-    width: auto;
-    height: auto;
+    width: 30%;
     text-align: center;
     background-color: rgb(49, 49, 49);
     border-radius: 10px;
@@ -72,8 +74,9 @@ button {
     margin: 5px;
 }
 
+
 footer {
-    margin-top: 10px;
+  margin-top: 10px;
     background-color: black;
     height: 100px;
     color: white;
@@ -81,8 +84,8 @@ footer {
     display: block;
     align-items: center;
     text-align: center;
-}
 
+}
 .powered {
     color: white;
     margin: 5px;
